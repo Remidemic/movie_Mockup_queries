@@ -1,0 +1,62 @@
+body {
+    background-color: green;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.topText {
+    text-align: center;
+}
+
+.switch {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.parentContainer {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.DH1POSTER {
+    display: block;
+    height: 60vh;
+    padding: 4%;
+}
+
+.DH2POSTER {
+    display: none;
+}
+
+.DH3POSTER {
+    display: none;
+}
+
+.filmcopy {
+    float: left;
+}
+
+.textBox1 {
+    border: solid 2px black;
+    display: block;
+    text-align: center;
+    padding: 10%;
+}
+
+.textBox2 {
+    display: none;
+}
+
+.textBox3 {
+    display: none;
+}
+
+.empty {
+    width: 20%;
+}

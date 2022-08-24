@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.topText {
+    text-align: center;
+}
+
+.switch {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.parentContainer {
+    display: flex;
+    flex-direction: row;
+    height: 20x;
+}
+
+.DH1POSTER {
+    display: none;
+}
+
+.DH2POSTER {
+    border: 2px solid white;
+    display: block;
+    padding: 5%;
+    height: 60vh;
+}
+
+.DH3POSTER {
+    display: none;
+}
+
+.trailers {
+    border: solid 2px white;
+    width: 60vw;
+    align-items: center;
+}
+
+.textBox1 {
+    border: solid 2px black;
+    display: none;
+}
+
+.textBox2 {
+    border: solid 2px white;
+    display: block;
+    text-align: center;
+    padding: 10%;
+    color: white;
+    width: 75vw;
+    margin-top: 950px;
+}
+
+.textBox3 {
+    display: none;
+}

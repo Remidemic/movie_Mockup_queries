@@ -1,0 +1,83 @@
+body {
+    background-color: royalblue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topText {
+    text-align: center;
+}
+
+.switch {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.parentContainer {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.DH1POSTER {
+    display: none;
+}
+
+.DH2POSTER {
+    display: none;
+}
+
+.DH3POSTER {
+    display: block;
+    height: 70vh;
+}
+
+.trailers {
+    border: solid 2px white;
+    justify-content: center;
+}
+
+.starring {
+    text-align: center;
+}
+
+.textBox1 {
+    display: none;
+}
+
+.textBox2 {
+    display: none;
+}
+
+.textBox3 {
+    border: solid 2px black;
+    text-align: center;
+    padding: 2%;
+    width: 75%;
+    margin-top: 300px;
+}
+
+.empty {
+    width: 20%;
+}
+
+.dh1cast {
+    display: none;
+}
+
+.dh2cast {
+    display: none;
+}
+
+.dh3cast {
+    width: 25vw;
+    height: 40vh;
+}
