@@ -7,6 +7,11 @@ body {
     justify-content: center;
 }
 
+.navbar {
+    display: flex;
+    align-content: center;
+}
+
 .topText {
     text-align: center;
 }
@@ -38,11 +43,12 @@ body {
 .DH3POSTER {
     display: block;
     height: 70vh;
+    margin-left: 300px;
 }
 
 .trailers {
-    border: solid 2px white;
-    justify-content: center;
+    width: fit-content;
+    block-size: fit-content;
 }
 
 .starring {
@@ -62,7 +68,7 @@ body {
     text-align: center;
     padding: 2%;
     width: 75%;
-    margin-top: 300px;
+    /* margin-top: 700px; */
 }
 
 .empty {
@@ -78,6 +84,21 @@ body {
 }
 
 .dh3cast {
-    width: 25vw;
-    height: 40vh;
+    display: block;
+    width: 25%;
+    /* height: 40vh; */
+}
+
+#DH1T {
+    display: none;
+}
+
+#DH2T {
+    display: none;
+}
+
+#DH3T {
+    display: block;
+    width: 50vw;
+    height: 180px;
 }

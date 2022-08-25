@@ -9,7 +9,12 @@ body {
     text-align: center;
 }
 
-ls .switch {
+.navbar {
+    display: flex;
+    align-content: center;
+}
+
+.switch {
     width: 100px;
     height: 50px;
     background-color: gray;
@@ -28,6 +33,7 @@ ls .switch {
     display: block;
     height: 60vh;
     padding: 4%;
+    /* margin-left: 100px; */
 }
 
 .DH2POSTER {
@@ -47,6 +53,8 @@ ls .switch {
     display: block;
     text-align: center;
     padding: 10%;
+    align-self: center;
+    /* margin-top: 300px; */
 }
 
 .textBox2 {
@@ -59,4 +67,32 @@ ls .switch {
 
 .empty {
     width: 20%;
+}
+
+.dh1cast {
+    display: block;
+    width: 60vw;
+    /* height: 40vh; */
+}
+
+.dh2cast {
+    display: none;
+}
+
+.dh3cast {
+    display: none;
+}
+
+#DH3T {
+    display: none;
+}
+
+#DH2T {
+    display: none;
+}
+
+#DH1T {
+    display: block;
+    /* width: 25vw; */
+    height: 40vh;
 }
